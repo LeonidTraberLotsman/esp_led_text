@@ -10,13 +10,13 @@
 String lett(char letter) {
 	String res =
 		(String)"" +
+		"+   +" +
 		"     " +
 		"     " +
+		"  +  " +
 		"     " +
 		"     " +
-		"     " +
-		"     " +
-		"     " +
+		"+++++" +
 		"     ";
 	if (letter == 'а' || letter == 'a' || letter == 'A' || letter == 'А') {
 		res =
@@ -31,7 +31,7 @@ String lett(char letter) {
 			"     ";
 	}
 	
-	if (letter == 'б' || letter == 'Б') {
+	/*if (letter == 'б' || letter == 'Б') {
 		res =
 			(String)"" +
 			"+++++" +
@@ -42,8 +42,8 @@ String lett(char letter) {
 			"+   +" +
 			"+++++" +
 			"     ";
-	}
-	if (letter == 'в' || letter == 'В' || letter == 'B') {
+	}*/
+	if (letter == 'b' || letter == 'B') {
 		res =
 			(String)"" +
 			"+++  " +
@@ -55,7 +55,7 @@ String lett(char letter) {
 			"++++ " +
 			"     ";
 	}
-	if (letter == 'г' || letter == 'Г') {
+	/*if (letter == 'г' || letter == 'Г') {
 		res =
 			(String)"" +
 			"+++++" +
@@ -66,8 +66,8 @@ String lett(char letter) {
 			"+    " +
 			"+    " +
 			"     ";
-	}
-	if (letter == 'д' || letter == 'Д') {
+	}*/
+	/*if (letter == 'д' || letter == 'Д') {
 		res =
 			(String)"" +
 			"+++  " +
@@ -78,8 +78,294 @@ String lett(char letter) {
 			"+++++" +
 			"+   +" +
 			"     ";
+	}*/
+	if (letter == 'C' || letter == 'c' ) {
+		res =
+			(String)"" +
+			"+++++" +
+			"+    " +
+			"+    " +
+			"+    " +
+			"+    " +
+			"+    " +
+			"+++++" +
+			"     ";
 	}
-
-
+	if (letter == 'D' || letter == 'd') {
+		res =
+			(String)"" +
+			"+++  " +
+			"+  + " +
+			"+   +" +
+			"+   +" +
+			"+   +" +
+			"+   +" +
+			"++++ " +
+			"     ";
+	}
+	if (letter == 'E' || letter == 'e') {
+		res =
+			(String)"" +
+			"+++++" +
+			"+    " +
+			"+    " +
+			"+++++" +
+			"+    " +
+			"+    " +
+			"+++++" +
+			"     ";
+	}
+	if (letter == 'F' || letter == 'f') {
+		res =
+			(String)"" +
+			"+++++" +
+			"+    " +
+			"+    " +
+			"+++++" +
+			"+    " +
+			"+    " +
+			"+    " +
+			"     ";
+	}
+	if (letter == 'G' || letter == 'g') {
+		res =
+			(String)"" +
+			"+++++" +
+			"+   +" +
+			"+   +" +
+			"+++++" +
+			"   ++" +
+			" +  +" +
+			"+++++" +
+			"     ";
+	}
+	if (letter == 'H' || letter == 'h') {
+		res =
+			(String)"" +
+			"+   +" +
+			"+   +" +
+			"+   +" +
+			"+++++" +
+			"+   +" +
+			"+   +" +
+			"+   +" +
+			"     ";
+	}
+	if (letter == 'I' || letter == 'i') {
+		res =
+			(String)"" +
+			"+++++" +
+			"  +  " +
+			"  +  " +
+			"  +  " +
+			"  +  " +
+			"  +  " +
+			"+++++" +
+			"     ";
+	}
+	if (letter == 'J'|| letter == 'j') {
+		res =
+			(String)"" +
+			"  +  " +
+			"     " +
+			"  +  " +
+			"  +  " +
+			"  +  " +
+			"  +  " +
+			"++   " +
+			"     ";
+	}
+	if (letter == 'K' || letter == 'k') {
+		res =
+			(String)"" +
+			"+   +" +
+			"+  + " +
+			"+ +  " +
+			"+    " +
+			"++   " +
+			"+ +  " +
+			"+  + " +
+			"     ";
+	}
+	if (letter == 'L' || letter == 'l') {
+		res =
+			(String)"" +
+			"+    " +
+			"+    " +
+			"+    " +
+			"+    " +
+			"+    " +
+			"+    " +
+			"+++++" +
+			"     ";
+	}
+	if (letter == 'M' || letter == 'm') {
+		res =
+			(String)"" +
+			"+   +" +
+			"++ ++" +
+			"+ + +" +
+			"+   +" +
+			"+   +" +
+			"+   +" +
+			"+   +" +
+			"     ";
+	}
+	if (letter == 'N' || letter == 'n') {
+		res =
+			(String)"" +
+			"+    " +
+			"+++++" +
+			"+   +" +
+			"+   +" +
+			"+   +" +
+			"+   +" +
+			"+   +" +
+			"     ";
+	}
+	if (letter == 'O' || letter == '0'|| letter == 'o') {
+		res =
+			(String)"" +
+			"+++++" +
+			"+   +" +
+			"+   +" +
+			"+   +" +
+			"+   +" +
+			"+   +" +
+			"+++++" +
+			"     ";
+	}
+	if (letter == 'P' || letter == 'p') {
+		res =
+			(String)"" +
+			"+++++" +
+			"+   +" +
+			"+   +" +
+			"+++++" +
+			"+    " +
+			"+    " +
+			"+    " +
+			"     ";
+	}
+	if (letter == 'Q'|| letter == 'q') {
+		res =
+			(String)"" +
+			"+++++" +
+			"+   +" +
+			"+   +" +
+			"+++++" +
+			"    +" +
+			"    +" +
+			"    +" +
+			"     ";
+	}
+	if (letter == 'R' || letter == 'r') {
+		res =
+			(String)"" +
+			"+++++" +
+			"+   +" +
+			"+++++" +
+			"++   " +
+			"+ +  " +
+			"+  + " +
+			"+   +" +
+			"     ";
+	}
+	if (letter == 'S' || letter == 's') {
+		res =
+			(String)"" +
+			" ++++" +
+			"+    " +
+			"+    " +
+			" ++++  " +
+			"    +" +
+			"    +" +
+			"+++++ " +
+			"     ";
+	}
+	if (letter == 'T' || letter == 't') {
+		res =
+			(String)"" +
+			"+++++" +
+			"  +  " +
+			"  +  " +
+			"  +  " +
+			"  +  " +
+			"  +  " +
+			"  +  " +
+			"     ";
+	}
+	if (letter == 'U' || letter == 'u') {
+		res =
+			(String)"" +
+			"+   +" +
+			"+   +" +
+			"+   +" +
+			"+   +" +
+			"+   +" +
+			"+   +" +
+			" +++ " +
+			"     ";
+	}
+	if (letter == 'V' || letter == 'v') {
+		res =
+			(String)"" +
+			"+   +" +
+			"+   +" +
+			"+   +" +
+			"+   +" +
+			"+   +" +
+			" + + " +
+			"  +  " +
+			"     ";
+	}
+	if (letter == 'W' || letter == 'w') {
+		res =
+			(String)"" +
+			"+   +" +
+			"+   +" +
+			"+   +" +
+			"+   +" +
+			"+ + +" +
+			"+ + +" +
+			" + + " +
+			"     ";
+	}
+	if (letter == 'X' || letter == 'x') {
+		res =
+			(String)"" +
+			"+   +" +
+			"+   +" +
+			" + + " +
+			" +++ " +
+			" + + " +
+			"+   +" +
+			"+   +" +
+			"     ";
+	}
+	if (letter == 'Y' || letter == 'y') {
+		res =
+			(String)"" +
+			"+   +" +
+			"+   +" +
+			"+   +" +
+			"+++++" +
+			"    +" +
+			"    +" +
+			"    +" +
+			"+++++";
+	}
+	if (letter == 'Z' || letter == 'z') {
+		res =
+			(String)"" +
+			"+++++" +
+			"    +" +
+			"   + " +
+			"  +  " +
+			" +  " +
+			"+    " +
+			"+++++" +
+			"     ";
+	}
 	return res;
 }

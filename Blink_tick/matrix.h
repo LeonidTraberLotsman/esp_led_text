@@ -146,10 +146,14 @@ void test_text() {
 	//ShowLetter(A_letter, pixel(1, 1));//first place
 	//ShowLetter(A_letter, pixel(8, 1));//same line, a bit righter
 	//ShowLetter(A_letter, pixel(1, 9));//bit lower
-
-	ShowLetterAtPosition(1, 1,lett('д'));
-	ShowLetterAtPosition(2, 1,lett('д'));
-	ShowLetterAtPosition(2, 2, lett('б'));
+	for (int i= 'a'; i < 'z'+1; i++)
+	{
+		//ShowLetterAtPosition((1+i-'a')%7, 1, lett(i));
+		ShowLetterAtPosition(3, 1, lett(i));
+		delay(1000);
+	}
+	
+	
 
 }
 void matrixLoop() {
