@@ -1,4 +1,5 @@
-﻿
+﻿#include "web.h"
+
 #define NUM_LEDS 768
 #define DATA_PIN 2
 #define CLOCK_PIN 13
@@ -66,6 +67,8 @@ void matrixSetup() {
 	Serial.begin(9600);
 	pr("started");
 
+	Connect_to_network();
+
 }
 
 void TurnPixel(pixel that_pixel, CHSV color);
@@ -81,12 +84,12 @@ void ShowLetter(String symbol,pixel start)
 		TurnPixel(that_pixel, CHSV(0, 0, 0));
 		else TurnPixel(that_pixel, CHSV(95, 255, 255));
 
-		Serial.print("line: ");
+		/*Serial.print("line: ");
 		Serial.print(line);
 		Serial.print(", row: ");
 		Serial.print(row);
 		Serial.print(", letter:");
-		Serial.println(symbol[i]);
+		Serial.println(symbol[i]);*/
 		
 
 	}
